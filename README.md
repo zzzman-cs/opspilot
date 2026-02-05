@@ -10,7 +10,7 @@ OpsPilot is intentionally scoped for **small teams and internal platforms** that
 
 ---
 
-## 🚨 The Problem
+#The Problem
 
 Small engineering teams often run production workloads with:
 - Limited monitoring
@@ -27,7 +27,7 @@ OpsPilot addresses these gaps by automating observation, notification, and recov
 
 ---
 
-## 🎯 What OpsPilot Does
+## What OpsPilot Does
 
 OpsPilot focuses on **three core responsibilities**:
 
@@ -57,7 +57,7 @@ Safely handles common failures by:
 
 ---
 
-## 🧠 What OpsPilot Is Not
+## What OpsPilot Is Not
 
 OpsPilot is **not**:
 - A replacement for enterprise monitoring platforms (Datadog, New Relic)
@@ -69,7 +69,7 @@ OpsPilot is an **internal operations platform**, similar to tools built in-house
 
 ---
 
-## 🏗️ High-Level Architecture
+##  High-Level Architecture
 
 User
 ↓
@@ -93,7 +93,7 @@ Infrastructure is provisioned using Terraform and deployed using Docker and Kube
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 **Cloud**
 - AWS (EC2, S3, RDS, CloudWatch, IAM)
@@ -122,7 +122,7 @@ Infrastructure is provisioned using Terraform and deployed using Docker and Kube
 
 ---
 
-## 🔐 Security & Reliability
+## Security & Reliability
 
 OpsPilot follows operational best practices:
 - Least-privilege IAM
@@ -134,7 +134,7 @@ OpsPilot follows operational best practices:
 
 ---
 
-## 🧪 Failure Scenarios Covered
+##  Failure Scenarios Covered
 
 OpsPilot is designed to detect and respond to:
 - Application crashes
@@ -147,7 +147,7 @@ Each scenario is documented with detection, alerting, and recovery behavior.
 
 ---
 
-## 📈 Why This Project Exists
+##  Why This Project Exists
 
 OpsPilot was built to demonstrate:
 - Real-world DevOps decision-making
@@ -159,7 +159,7 @@ This project reflects how modern DevOps engineers design, deploy, monitor, and m
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 - Architecture diagrams: `/diagrams`
 - Infrastructure code: `/terraform`
@@ -170,7 +170,7 @@ This project reflects how modern DevOps engineers design, deploy, monitor, and m
 
 ---
 
-## 🧑‍💻 Author
+## Author
 
 Built as a hands-on DevOps engineering project focused on real operational problems, reliability, and maintainability.
 
@@ -178,4 +178,4 @@ Built as a hands-on DevOps engineering project focused on real operational probl
 
 ## 📝 License
 
-MIT Licens
+MIT License
